@@ -1,18 +1,19 @@
 var bar_ctx = document.getElementById('chart').getContext('2d');
 
-var background_1 = bar_ctx.createLinearGradient(0, 0, 0, 600);
+var background_1 = bar_ctx.createLinearGradient(50, 100, 400, 600);
 background_1.addColorStop(0, '#EB3349');
 background_1.addColorStop(1, '#F45C43');
 
-var background_2 = bar_ctx.createLinearGradient(0, 0, 0, 600);
+var background_2 = bar_ctx.createLinearGradient(50, 100, 400, 600);
 background_2.addColorStop(0, '#FF8008');
 background_2.addColorStop(1, '#FFC837');
 
-var background_3 = bar_ctx.createLinearGradient(0, 0, 0, 600);
+var background_3 = bar_ctx.createLinearGradient(50, 100, 400, 600);
 background_3.addColorStop(0, '#4CB8C4');
 background_3.addColorStop(1, '#3CD3AD');
 
-var background_4 = bar_ctx.createLinearGradient(0, 0, 0, 600);
+
+var background_4 = bar_ctx.createLinearGradient(50, 100, 400, 600);
 background_4.addColorStop(0, '#1A2980');
 background_4.addColorStop(1, '#26D0CE');
 
